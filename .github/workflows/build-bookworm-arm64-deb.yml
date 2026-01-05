@@ -35,7 +35,8 @@ jobs:
             curl jq python3 \
             build-essential pkg-config ninja-build \
             debhelper devscripts dpkg-dev fakeroot \
-            cmake g++ libpython3-dev python3-numpy swig
+            cmake g++ libpython3-dev python3-numpy swig \
+            libsoapysdr-dev soapysdr-tools soapysdr-module-all
 
       - name: Compute DEB version (monotonic)
         run: |
@@ -69,7 +70,10 @@ jobs:
            pkg-config,
            libpython3-dev,
            python3-numpy,
-           swig
+           swig,
+           libsoapysdr-dev,
+           soapysdr-tools,
+           soapysdr-module-all
           Standards-Version: 4.6.2
           Rules-Requires-Root: no
 
