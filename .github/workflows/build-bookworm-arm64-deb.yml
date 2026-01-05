@@ -16,11 +16,11 @@ jobs:
     env:
       SUITE: bookworm
       ARCH: arm64
-      PKGNAME: SoapySDRWolfberry
+      PKGNAME: soapysdr-wolfberry
 
       DEBIAN_FRONTEND: noninteractive
       DEB_BUILD_OPTIONS: nocheck
-      DEBFULLNAME: SoapySDRWolfberry
+      DEBFULLNAME: soapysdr-wolfberry
       DEBEMAIL: hristoandreev@wolfberry.lz1haa.eu
 
     steps:
