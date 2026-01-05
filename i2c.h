@@ -23,6 +23,7 @@
 #define _RPI_HW_DRIVER_I2C_HPP_
 
 #include <cstdio>
+#include <cstdint>
 #include <cstdarg>
 #include <string>
 #include <unistd.h>
@@ -121,3 +122,4 @@ private:
 //#include <rpi-hw/driver/i2c-inl.hpp>
 
 #endif /* _RPI_HW_DRIVER_I2C_HPP_ */
+
