@@ -67,14 +67,9 @@ jobs:
            cmake,
            ninja-build,
            pkg-config,
-           qt6-base-dev,
-           qt6-svg-dev,
-           libxkbcommon-dev,
-           gnuradio-dev,
-           gr-osmosdr,
-           libsoapysdr-dev,
-           libvolk2-dev,
-           libpulse-dev
+           libpython3-dev,
+           python3-numpy,
+           swig
           Standards-Version: 4.6.2
           Rules-Requires-Root: no
 
